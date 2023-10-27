@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+}
+
+header {
+    padding: 5px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav i, nav div {
+    cursor: pointer;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 1px solid red;
+}
+
+main {
+    height: 80%;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-block {
+    width: 300px;
+    height: 100px;
+}
+
+.logo-block > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.search-block {
+    width: 560px;
+    position: relative;
+}
+
+.search-block > input {
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+}
+
+.search-block > input:focus {
+    outline: none;
+}
+
+#search-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.btns-block > button {
+    border: 1px solid transparent;
+    background: #f8f9fa;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btns-block > button:hover {
+    border: 1px solid #d9d9d9;
+}
+
+.btns-block > button:nth-child(2) {
+    margin-left: 5px;
+}
+
+.content > p > a {
+    text-decoration: none;
+}
